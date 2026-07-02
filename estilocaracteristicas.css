@@ -1,0 +1,95 @@
+/* estilocaracteristicas.css */
+
+/* --- Estilos Generales --- */
+body {
+    background-color: #fdfdfd; /* Fondo liso, claro y neutro */
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    color: #333333;
+}
+
+/* --- Encabezado --- */
+header .bg-dark {
+    background-color: #1a1a1a !important; /* Tono oscuro elegante de alto contraste */
+    border-radius: 0 0 20px 20px !important; /* Suaviza el contenedor superior */
+}
+
+header h2 {
+    letter-spacing: -0.5px;
+    color: #111111;
+}
+
+/* --- Contenedores de Características --- */
+main .col-md-4 {
+    padding: 25px 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: #ffffff;
+    border-radius: 12px;
+    margin-bottom: 30px;
+}
+
+/* Efecto hover moderno y minimalista */
+main .col-md-4:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.06);
+}
+
+/* --- Imágenes --- */
+main .col-md-4 img {
+    border-radius: 8px;
+    margin-bottom: 20px;
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+    border: 1px solid #f0f0f0; /* Borde muy sutil para estructurar la imagen */
+}
+
+/* --- Tipografía de las Tarjetas --- */
+.card-title {
+    font-size: 1.25rem;
+    margin-bottom: 15px;
+    color: #111111;
+}
+
+.card-text {
+    line-height: 1.8;
+    color: #555555;
+    font-size: 0.95rem;
+}
+
+/* --- Navegación y Paginación --- */
+.pagination .page-link {
+    color: #1a1a1a;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    margin: 0 4px;
+    transition: all 0.2s ease;
+    background-color: transparent;
+}
+
+.pagination .page-link:hover {
+    background-color: #f0f0f0;
+    color: #000000;
+    border-color: #e0e0e0;
+}
+
+/* --- Botón Volver al Inicio --- */
+.btn-outline-dark {
+    border-width: 2px;
+    border-radius: 8px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 0.85rem;
+    padding: 10px 24px;
+    transition: all 0.3s ease;
+}
+
+.btn-outline-dark:hover {
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
+
+/* --- Pie de página --- */
+footer.bg-dark {
+    background-color: #1a1a1a !important;
+}

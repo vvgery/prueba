@@ -1,0 +1,86 @@
+/* estilonosotros.css */
+
+/* --- Estilos Generales --- */
+body {
+    background-color: #fdfdfd;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    color: #333333;
+}
+
+/* --- Encabezado --- */
+header.bg-dark {
+    background-color: #1a1a1a !important;
+}
+
+/* --- Tarjetas de Misión, Visión y Valores --- */
+.card {
+    border: none;
+    border-radius: 12px;
+    background-color: #ffffff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Efecto al pasar el cursor (Hover) */
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.08) !important;
+}
+
+.card h2 {
+    color: #111111;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.card p {
+    color: #555555;
+    line-height: 1.7;
+}
+/* --- Imágenes --- */
+main .col-md-4 img {
+    border-radius: 8px;
+    margin-bottom: 20px;
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+    border: 1px solid #d5d2d2; /* Borde muy sutil para estructurar la imagen */
+}
+/* --- Imágenes dentro de las tarjetas --- */
+.img-hover {
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+    object-fit: cover;
+}
+
+.card:hover .img-hover {
+    transform: scale(1.03); /* Ligero zoom a la imagen al pasar el mouse */
+}
+
+/* --- Paginación y Botones --- */
+.pagination .page-link {
+    color: #1a1a1a;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    margin: 0 4px;
+    transition: all 0.2s ease;
+    background-color: transparent;
+}
+
+.pagination .page-link:hover {
+    background-color: #f0f0f0;
+    color: #000000;
+}
+
+.btn-outline-light {
+    border-width: 2px;
+    border-radius: 8px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 10px 24px;
+}
+
+/* --- Pie de página --- */
+footer.bg-dark {
+    background-color: #1a1a1a !important;
+}

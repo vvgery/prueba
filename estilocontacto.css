@@ -1,0 +1,129 @@
+/* Formulario de contacto
+/* Mejora la estética del formulario */
+form {
+    transition: transform 0.3s ease;
+    background-color: rgb(178, 187, 178);
+    padding: 20px;
+}
+form:hover {
+    transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el mouse */
+}
+.container {
+    background-color: rgb(61, 66, 59);
+    padding: 20px;
+    height: 80%;
+    opacity: 0.9; /* Ajusta la opacidad según tus necesidades */
+}
+.footer {
+    background-color: #343a40; /* Color de fondo oscuro para el pie de página */
+    color: #bec5c0; /* Color de texto claro para contraste */
+    text-align: center;
+    padding: 10px 0;
+}
+.pie{
+    background-color: #ecf1f6; /* Color de fondo oscuro para el pie de página */
+    color: #717971; /* Color de texto claro para contraste */
+    text-align: center;
+    padding: 10px 0;
+}
+/* estilocontacto.css */
+
+/* Estilos Generales */
+body {
+    background-color: #fdfdfd;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    color: #e90707;
+}
+
+/* Encabezado */
+header.bg-light {
+    background-color: #ffffff !important;
+    border-bottom: 1px solid #eaeaea !important; /* Línea separadora muy sutil */
+}
+
+header h1 {
+    color: #ffffff;
+}
+
+/*  Formulario*/
+form {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.04); /* Sombra suave para separar del fondo neutro */
+    margin-top: 20px;
+}
+
+.form-label {
+    font-weight: 600;
+    color: #333333;
+    margin-bottom: 8px;
+}
+
+/* Estilo para los campos de texto */
+.form-control {
+    border-radius: 8px;
+    border: 1px solid #dcdcdc;
+    padding: 12px 15px;
+    transition: all 0.3s ease;
+    background-color: #fafafa;
+}
+
+/* Efecto al hacer clic/escribir en el campo */
+.form-control:focus {
+    border-color: #1a1a1a;
+    background-color: #ffffff;
+    box-shadow: 0 0 0 3px rgba(26, 26, 26, 0.1); /* Anillo de enfoque oscuro en lugar del azul por defecto */
+}
+
+/* --- Botón Enviar --- */
+.btn-dark {
+    background-color: #000000;
+    border: none;
+    padding: 12px 28px;
+    border-radius: 8px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    width: 100%; /* Botón ancho para diseño moderno */
+    margin-top: 10px;
+}
+
+.btn-dark:hover {
+    background-color: #333333;
+    transform: translateY(-2px);
+}
+
+/* --- Paginación y Botones Inferiores --- */
+.pagination .page-link {
+    color: #1a1a1a;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    margin: 0 4px;
+    background-color: transparent;
+}
+
+.pagination .page-link:hover {
+    background-color: #f0f0f0;
+    color: #000000;
+}
+
+.btn-outline-dark {
+    border-width: 2px;
+    border-radius: 8px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 0.85rem;
+    padding: 10px 24px;
+}
+
+/* --- Pie de página --- */
+footer.pie {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}

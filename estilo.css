@@ -1,0 +1,133 @@
+/* estilo.css */
+
+/*  Estilos Generales  */
+body {
+    background-color: #fdfdfd; /* Fondo liso, claro y neutro */
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    color: #333333;
+    overflow-x: hidden;
+}
+
+/* --- Encabezado Principal --- */
+header .text-center.bg-dark {
+    background-color: #1a1a1a !important; /* Negro profundo y elegante */
+    padding-top: 2.5rem !important;
+    padding-bottom: 2rem !important;
+}
+
+header h1 {
+    font-size: 12rem;
+    letter-spacing: 4px; /* Espaciado moderno entre letras */
+    font-weight: 800;
+}
+
+header p {
+    font-size: 1rem;
+    color: #a0a0a0;
+    letter-spacing: 3px;
+}
+
+/* --- Menú de Navegación (Navbar) --- */
+.navbar {
+    background-color: #4a4a4a !important;
+    border-bottom: 1px solid #ffffff;
+    padding: 0.8rem 1rem;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.nav-link {
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin: 0 8px;
+    transition: color 1.5s ease;
+}
+
+.nav-link:hover {
+    color: #dcdada !important;
+}
+/* Igualar el tamaño y estilo de todos los enlaces del menú */
+.navbar-nav .nav-link {
+    font-size: 1.1rem !important; /* Mismo tamaño para todos */
+    font-weight: 500 !important; /* Mismo grosor para todos (ni muy delgado, ni muy grueso) */
+    text-transform: capitalize !important; /* Escribe la primera letra en mayúscula */
+    margin: 0 15px; /* Separación a los lados de cada botón para que no estén pegados */
+    color: #cccccc !important; /* Color gris claro por defecto */
+    transition: color 0.3s ease;
+}
+
+/* Color blanco puro cuando pasas el mouse por encima o cuando es la página activa */
+.navbar-nav .nav-link:hover, 
+.navbar-nav .nav-link.active {
+    color: #ffffff !important;
+}
+/* --- Carrusel de Imágenes --- */
+.carousel {
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08); /* Sombra suave para despegarlo del fondo */
+}
+
+.carousel-item img {
+    height: 500px; /* Altura fija para que el diseño sea consistente */
+    object-fit: cover; /* Ajusta la imagen sin deformarla */
+    transition: transform 0.5s ease;
+}
+
+/* Efecto hover en las imágenes que incluiste en tu HTML */
+.img-hover:hover {
+    transform: scale(1.02); /* Efecto de zoom suave y moderno */
+}
+
+/* Fondos oscuros sutiles para los textos del carrusel (asegura legibilidad) */
+.carousel-caption {
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.7));
+    width: 100%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 40px 20px 30px 20px;
+}
+
+.carousel-caption h5 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.carousel-caption p {
+    font-size: 1rem;
+    color: #e0e0e0;
+}
+
+/* --- Sección de Bienvenida --- */
+h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #111111;
+    margin-bottom: 25px;
+    letter-spacing: -0.5px;
+}
+
+section p {
+    font-size: 1.25rem;
+    line-height: 1.8; /* Mayor espacio entre líneas para lectura cómoda */
+    color: #555555;
+    margin-bottom: 20px;
+}
+
+/* --- Pie de Página --- */
+footer.bg-dark {
+    background-color: #1a1a1a !important;
+    padding: 25px !important;
+    border-top: 1px solid #2d2d2d;
+}
+
+footer p {
+    font-size: 0.9rem;
+    color: #a0a0a0;
+}
